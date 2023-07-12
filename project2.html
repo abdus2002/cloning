@@ -17,6 +17,7 @@
       color: #fff;
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
 
     .navbar img {
@@ -27,14 +28,33 @@
     .navbar ul {
       list-style: none;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      margin-left: 20px;
+    }
+
+    .navbar ul li:first-child {
+      margin-left: 0;
     }
 
     .navbar ul li a {
       color: #fff;
       text-decoration: none;
-      margin-left: 20px;
+    }
+
+    .sign-in-box {
+      background-color: red;
+      padding: 10px;
+      margin-left: auto;
+    }
+
+    .sign-in-box a {
+      color: #fff;
+      text-decoration: none;
     }
 
     .hero {
@@ -91,6 +111,9 @@
       <li><a href="#">Latest</a></li>
       <li><a href="#">My List</a></li>
     </ul>
+    <div class="sign-in-box">
+      <a href="#">Sign In</a>
+    </div>
   </header>
 
   <section class="hero">
